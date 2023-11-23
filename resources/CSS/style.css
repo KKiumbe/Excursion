@@ -1,23 +1,54 @@
 /* styles.css */
 
 /* Styling the body */
+
+/* styles.css */
+
+body {
+    background-color: black; /* Set the background color of the entire webpage */
+    /* Optionally, set text color to contrast with the black background */
+}
+
 #Discover {
     font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
-    background-color: white;
+    color: white;
     font-weight: normal;
     font-size: 50px;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
-#Download {
-font-size: 16px;
-background-color: aquamarine;
+.download-link {
+    /* Styles for the link text */
+    /* Remove underline */
+    color: aquamarine; /* Link color */
+   
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .download-link:hover {
+    /* Styles for the link on hover */
+    text-decoration: underline; /* Underline on hover */
+    color: white /* Darker link color */
+  }
+  #Download {
+text-align: center;
+  }
+  
+
+
+/* Targeting the video element by class */
+.videot {
+    width: 500px; /* Set the video width to 100% of its container */
+    height: 1000px; /* Let the height adjust automatically based on the aspect ratio */
+    display: block; /* Ensure it behaves as a block element */
+    margin: 0 auto; /* Center the video horizontally */
+    /* Add any additional styles as needed */
 }
 
-#video {
 
-}
 /* Styling headers */
 h1 {
     color: #333;
@@ -28,5 +59,39 @@ a {
     text-decoration: none;
     color: #007bff;
 }
-
+h2{
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    font-size: 42px;
+}
+p{
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    text-align: center;
+}
+.image-container {
+    text-align: center;
+  }
+  
+  .image-container img {
+    /* Optionally, you can set a max-width or other styling for the image */
+    max-width: 100%; /* Adjust as needed */
+    height: auto;
+  }
+  footer {
+    /* Styling for the footer section */
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Styles for the copyright text */
+  .copyright {
+    font-size: 14px;
+    color: white;
+  }
+  
+  
 /* Add more CSS rules to style your HTML elements */
